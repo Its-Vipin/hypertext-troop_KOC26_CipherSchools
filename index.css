@@ -88,9 +88,9 @@
     color: white
 }
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
-.f4_line,.f5_line{
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 30px;
+.f4_line{
+    font-family: 'Libre Baskerville';
+    font-size: 26px;
     color: white;
 }
 
