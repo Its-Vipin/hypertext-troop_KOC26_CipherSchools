@@ -1,4 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600&display=swap');
 .f1-web{
     display: flex;
@@ -90,8 +89,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
 .f4_line{
     font-family: 'Libre Baskerville';
-    font-size: 26px;
+    font-size: 25px;
     color: white;
+    max-width: 790px;
+    line-height: 38px;
 }
 
 #jointheclub{
@@ -121,32 +122,38 @@
 }
 
 .c2{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    
     border-top: white solid 5px;
     background-color: rgba(250, 235, 215, 0.49);
     
     border-bottom: white solid 5px;
-    margin: 0px 0px 0px 0px;
+    height: 500px;background-image: url(/Assets/Images/bg-c2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+    background-position-x: 880px;
+    
+   
+    
     
     
     
    
-}
-.img-c2{
-    border-radius: 10px;
-    /* margin-left: 200px; */
-
 }
 
 .game_report{
-   
+    margin-top: 5.5%;
+    margin-left: 15%;
+
+    
 }
 .gr-l1{
     font-family: 'Montserrat';
     font-size: 138%;
-    margin-left: 35%;
+    /* margin-left: 35%; */
     
 }
 .gr-l2-f1{
@@ -161,24 +168,24 @@
     font-family: 'Montserrat';
     font-size: 310%;
     font-weight: 100;
-    margin-left: 8;
+    /* margin-left: 8; */
 }
 .gr-l3{
     font-family: 'Montserrat';
-    margin-left: 29%;
+    /* margin-left: 29%; */
 }
 .gr-l4-p1{
     font-family: 'Montserrat';
     display: flex;
     align-items: center;
-    margin-left: 19%;
+    /* margin-left: 19%; */
     
 }
 .gr-l4-p2{
     font-weight: 800;
     font-size: 400%;
-    margin-left: 5.2%;
-    margin-right: 5.2%;
+    /* margin-left: 5.2%; */
+    /* margin-right: 5.2%; */
     
 }
 
@@ -192,7 +199,7 @@
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 10px;
-    margin: 36%;
+    /* margin: 36%; */
     
 }
 #more-details:hover{
