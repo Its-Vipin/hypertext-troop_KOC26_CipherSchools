@@ -17,30 +17,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    /* border-radius: 15px; */
     color: white;
 }
 .nav{
     font-weight: 500;
     font-size: 17px;
     padding-left: 150px;
-    
-    
 }
 .nav_menu{
-    
-    display: inline-block;
-    
-    
+    display: inline-block; 
 }
 .nav-a{
     text-decoration: dashed;
-
     color: white;
     padding: 15px 20px;
     margin-right: 15px;
-    /* border: white solid; */
 }
 .nav-a:hover{
     text-decoration: dashed;
@@ -65,7 +56,7 @@
     margin-left: 15%;
     
 }
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
 .f1_line{
     font-family: 'Montserrat';
     font-weight: 100;
@@ -86,7 +77,6 @@
     font-weight: 400;
     color: white
 }
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
 .f4_line{
     font-family: 'Libre Baskerville';
     font-size: 25px;
@@ -122,42 +112,25 @@
 }
 
 .c2{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    
     border-top: white solid 5px;
     background-color: rgba(250, 235, 215, 0.49);
-    
     border-bottom: white solid 5px;
     height: 500px;background-image: url(/Assets/Images/bg-c2.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 30%;
     background-position-x: 880px;
-    
-   
-    
-    
-    
-    
-   
 }
 
 .game_report{
     margin-top: 5.5%;
     margin-left: 15%;
-
-    
 }
 .gr-l1{
     font-family: 'Montserrat';
     font-size: 138%;
-    /* margin-left: 35%; */
-    
 }
 .gr-l2-f1{
-    
     font-family: 'Montserrat';
     font-weight: 800;
     font-size: 310%;
@@ -168,25 +141,19 @@
     font-family: 'Montserrat';
     font-size: 310%;
     font-weight: 100;
-    /* margin-left: 8; */
 }
 .gr-l3{
     font-family: 'Montserrat';
-    /* margin-left: 29%; */
 }
 .gr-l4-p1{
     font-family: 'Montserrat';
     display: flex;
     align-items: center;
-    /* margin-left: 19%; */
     
 }
 .gr-l4-p2{
     font-weight: 800;
     font-size: 400%;
-    /* margin-left: 5.2%; */
-    /* margin-right: 5.2%; */
-    
 }
 
 #more-details{
@@ -199,8 +166,6 @@
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 10px;
-    /* margin: 36%; */
-    
 }
 #more-details:hover{
     text-decoration: dashed;
@@ -238,18 +203,12 @@
 }
 
 .tc-l2{
-    /* margin: 500px; */
     display: flex;
     justify-content: center;
 }
 
 .table-content{
-    
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     background-image: url(/Assets/Images/tt-bg.jpg);
-    /* background-attachment: fixed; */
 }
 
 
@@ -263,16 +222,12 @@
     margin: 0px 0px 50px 0px;
 }
 .r1{
-    /* border: #3da3e6 solid 2px;
-     */
     background-color: #3da3e6;
     color: white;
     padding: 13px;
     border-radius: 10px 0px 0px;
 }
 .r1-c2{
-    /* border: #3da3e6 solid 2px; */
-    
     background-color: #3da3e6;
     color: white;
     padding: 13px;
@@ -314,7 +269,6 @@
 .t2{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .c3{
@@ -325,20 +279,14 @@
 }
 .s3{
     background-image: url(/Assets/Images/c4-bg.jpg);
-    /* background-size: 50%; */
     background-repeat: no-repeat;
-    /* background-position: right; */
-    
     background-attachment: fixed;    
     background-size: cover;
-    
-
 }
 
 .c3-f1{
     font-family: 'Montserrat';
     font-weight: 100;
-    /* padding-top: 60px; */
     font-size: 32px;
     color: black;
 }
@@ -354,7 +302,8 @@
     color: #3da3e6;
 }
 .c3-f3{
-    font-family: 'Libre Baskerville';font-size: 26px;
+    font-family: 'Libre Baskerville';
+    font-size: 26px;
     line-height: 40px;
 }
 .c3-f4{
@@ -374,24 +323,21 @@
 .c4{
     padding-top: 6%;
     margin-left: 15%;
-    
-
 }
 .s4{
     
     background-image: url(/Assets//Images/c6-bg.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 700px ;
+    padding-bottom: 75px;
 }
 .c4-f1-p1{
     font-family: 'Montserrat';
     font-size: 320%;
     font-weight: 300;
-    color: white;
-    
-    
+    color: white;   
 }
+
 .c4-f1-p2{
     font-family: 'Montserrat';
     font-weight: 800;
@@ -415,8 +361,7 @@
 }
 .mem-q{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    
+    color: white; 
 }
 .foot-main{
     display: flex;
