@@ -49,6 +49,7 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 550px;
+    margin-top: 6px;
 }
 .slogan{
     margin-left: 15%;
@@ -127,7 +128,9 @@
     height: 3.2em;
     width:51%;
     border-radius: 5px;
-    border: solid 1px black;
+    border: solid 1px black;font-family: 'Montserrat';
+    padding-left: 12px;
+    
     
 }
 

@@ -51,6 +51,7 @@
     background-attachment: fixed;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    margin-top: 6px;
 }
 .slogan{
     margin-left: 15%;
@@ -264,11 +265,14 @@
     padding: 13px;
     border-bottom: gray solid 1px;
     background-color: rgba(128, 128, 128, 0.225);
+    
 }
 
 .t2{
     display: flex;
+    
     justify-content: center;
+    /* align-items: center; */
 }
 
 .c3{
@@ -305,10 +309,13 @@
     font-family: 'Libre Baskerville';
     font-size: 26px;
     line-height: 40px;
+    max-width: 50%;
 }
 .c3-f4{
     font-family: 'Montserrat';
     font-size: 15px;
+    max-width: 47%;
+    
 }
 
 
@@ -348,6 +355,7 @@
     font-family: 'Libre Baskerville';font-size: 18px;
     line-height: 30px;
     color: white;
+    max-width: 70%;
 }
 .member{
     font-family: 'Montserrat';
